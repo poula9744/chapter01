@@ -6,12 +6,14 @@ public class Ex07 {
 		
 		int result = 0;
 		
-		for(int i=2; i<=9; i++) {
-			for(int z=1; z<=9; z++) {
-				result = i*z;
+		//dan 반복 (2~9)
+		for(int dan=2; dan<=9; dan++) {
+			
+			//d 반복(1~9)
+			for(int d=1; d<=9; d++) {
+				result = dan*d;
 	
-				
-				System.out.println(i + "*" +z+  "=" + result);
+				System.out.println(dan + " * " + d +  " = " + result);
 			}
 		}
 	}
